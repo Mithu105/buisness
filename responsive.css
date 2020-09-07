@@ -1,0 +1,199 @@
+@media screen and (max-width: 1441px) {
+    .hero-text {
+        width: 59%;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .col-md-2{
+        margin: 5px 0;
+    }
+
+    nav .logo img {
+        margin-left: 100px;
+    }
+
+    nav .text-item {
+        margin-left: 130px;
+    }
+
+    .sticky img {
+        padding-top: 9px;
+    }
+
+    .client-photo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .client-review {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 84%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-menu span {
+        display: block;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 21px;
+    }
+
+    .client-photo {
+        margin-top: 40px;
+        margin-bottom: 5px;
+    }
+
+    .about-section-title p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-section form {
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-section input[type="text"] {
+        margin-bottom: 15px;
+    }
+
+    .footer-section ul li a {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        width: 100%;
+    }
+
+    .footer-section ul {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .client-review {
+        width: 90%;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+
+    .service-title p,
+    .portfolio-title p,
+    .skill-section p {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+    .service-title p {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 321px) {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .hero-text a {
+        width: 100%;
+    }
+
+    .hero-text a {
+        padding: 8px 25px;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+
+    .client-review {
+        width: 80%;
+    }
+
+    .about-section textarea {
+        width: 95%;
+        margin: auto;
+    }
+
+    .font-size-18 {
+        font-size: 16px;
+    }
+
+    .font-size-21 {
+        font-size: 18px;
+    }
+
+    .about-section-title p {
+        font-size: 15px;
+    }
+
+    .about-section input[type="text"],
+    .about-section input[type="email"],
+    .about-section textarea {
+        font-size: 14px;
+    }
+
+    .send-btn {
+        background: #30bae7;
+        padding: 10px 25px;
+        border-radius: 4px;
+        border: 1px solid #15c7a8;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .footer-section li a {
+        font-size: 14px !important;
+    }
+
+    .footer-section ul {
+        text-align: center;
+    }
+
+}

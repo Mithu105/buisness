@@ -1,0 +1,20 @@
+@font-face{
+    font-family: Titillium web regular;
+    src: url('fonts/TitilliumWeb-Regular.ttf');
+}
+@font-face{
+    font-family: t-bold;
+    src: url('fonts/TitilliumWeb-Bold.ttf');
+}
+@font-face{
+    font-family: t-light;
+    src: url('fonts/TitilliumWeb-Light.ttf');
+}
+@font-face{
+    font-family: t-semi-bold;
+    src: url('fonts/TitilliumWeb-SemiBold.ttf');
+}
+@font-face{
+    font-family: t-black;
+    src: url("fonts/TitilliumWeb-Black.ttf");
+}

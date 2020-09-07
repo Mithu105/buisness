@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Buisness Website | By Mithu</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!------------ Website Title for Search Engine--------- -->
+    <meta name="description" content="Cuda an awesome responsive website.Designed by Mithu" />
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./progresscircle/progresscircle.css">
+    <link rel="stylesheet" href="font.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+ 
+</head>
+
+<body>
+    <!-- header section  -->
+    <header id="home">
+        <nav>
+            <div class="row">
+                <div class="logo">
+                    <a href="#">Bu<span>isness</span></a>
+                </div>
+
+                <div class="text-item text-semi-bold main-nav">
+                    <ul class="text-left text-uppercase home">
+                        <li><a href="#home" class="text-white px-3">home</a></li>
+                        <li><a href="#service" class="text-white px-3">service</a></li>
+                        <li><a href="#team" class="text-white px-3">team</a></li>
+                        <li><a href="#skill" class="text-white px-3">skill</a></li>
+                        <li>
+                            <a href="#portfolio" class="text-white px-3">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#testimonial" class="text-white px-3">testimonial</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="text-white px-3">about</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ====== Side navigation ====== -->
+                <section class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+
+                    <div id="side-nav">
+                        <a class="closebtn" onclick="closeNav()" href="javascript:void(0">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#home" class="text-white px-3">home</a>
+                            <a onclick="closeNav()" href="#service" class="text-white px-3">service</a>
+                            <a onclick="closeNav()" href="#team" class="text-white px-3">team</a>
+                            <a onclick="closeNav()" a href="#skill" class="text-white px-3">skill</a>
+                            <a onclick="closeNav()" href="#portfolio" class="text-white px-3">portfolio</a>
+                            <a onclick="closeNav()" href="#testimonial" class="text-white px-3">testimonial</a>
+                            <a onclick="closeNav()" href="#about" class="text-white px-3">about</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- ====== Side navigation ====== -->
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <div class="hero-text">
+                <h1 class="mb-5">
+                    Hi there! We are the new kids on the block and we build awesome
+                    websites and mobile apps.
+                </h1>
+                <div class="btn-hero">
+                    <a href="#about" class="text-uppercase text-white">work with us!</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- #header section  -->
+
+    <!-- service section -->
+    <section class="py-5 service" id="service">
+        <div class="service-title text-center">
+            <h2 class="text-bold">SERVICES WE PROVIDE</h2>
+            <p>
+                We are working with both individuals and businesses from all over the
+                globe to create awesome websites and applications.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <div class="text-center">
+                        <img src="img/flag.png" alt="flag" class="mt-5 mb-4" />
+                        <h3>Branding</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                            diam nonummy nibh.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <img src="img/pen.png" alt="pen" class="mt-5 mb-4" />
+                        <h3>Design</h3>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <img src="img/setting.png" alt="setting" class="mt-5 mb-4 img-flui b" />
+                        <h3>Development</h3>
+                        <p>
+                            At vero eos et accusamus et iusto odio dignissimos qui
+                            blanditiis praesentium.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <img src="img/rocket.png" alt="flag" class="mt-5 mb-4" />
+                        <h3>Rocket Science</h3>
+                        <p>
+                            Et harum quidem rerum est et expedita distinctio. Nam libero
+                            tempore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+
+    <!-- team section -->
+    <section class="team-section py-5" id="team">
+        <div class="team-title text-center">
+            <h2>MEET OUR BEAUTIFUL TEAM</h2>
+            <p>
+                We are a small team of designers and developers, who help brands with
+                big ideas.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <img src="img/team/person_1.jpg" alt="ANNE HATHAWAY" class="team-pic mt-4" />
+                    <div class="profession my-4">
+                        <h3>ANNE HATHAWAY</h3>
+                        <p>CEO / Marketing Guru</p>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <div class="social-icon text-center">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/team/person_2.jpg" alt="Kate Upton" class="team-pic mt-4" />
+                    <div class="profession my-4">
+                        <h3>KATE UPTON</h3>
+                        <p>Creative Director</p>
+                    </div>
+                    <p class="light">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <div class="social-icon text-center">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/team/person_3.jpg" alt="olivia wilde" class="team-pic mt-4" />
+                    <div class="profession my-4">
+                        <h3>OLIVIA WILDE</h3>
+                        <p>Lead Designer</p>
+                    </div>
+                    <p class="light">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <div class="social-icon text-center">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="img/team/person_4.jpg" alt="Ashley Greene" class="team-pic mt-4" />
+                    <div class="profession my-4">
+                        <h3>ASHLEY GREENE</h3>
+                        <p>CEO / Developer</p>
+                    </div>
+                    <p class="light">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <div class="social-icon text-center">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team section -->
+
+    <!-- skill section -->
+    <section class="py-5 skill-section" id="skill">
+        <div class="skill-title">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="font-size-18 m-auto">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="85"> PHP</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="65"> JAVASCRIPT</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="85">WORDPRESS </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="90"> BOOTSTRAP</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="90"> CSS</div>
+                </div>
+                <div class="col-md-2">
+                    <div class="circlechart"  data-percentage="95"> HTML</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill section -->
+
+    <!-- portfolio section -->
+    <section class="portfolio-section py-5" id="portfolio">
+        <div class="portfolio-title">
+            <h2>Our Portfolio</h2>
+            <p class="font-size-18 m-auto">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                consectetur, adipisci velit, sed quia non numquam
+            </p>
+        </div>
+        <div class="filter-btn mt-3 mb-5">
+            <button data-filter=".mix ">All</button>
+            <button data-filter=" .web ">Web</button>
+            <button data-filter=".apps ">Apps</button>
+            <button data-filter=".icons " data-filter="  ">Icons</button>
+        </div>
+
+        <div class="container filter">
+            <div class="row">
+                <div class="col-md-6 mix apps">
+                    <img src="img/pc1.png" alt="mock-up" class="img-fluid" />
+                    <h4 class="font-size-18 text-uppercase mt-3">
+                        Isometric Perspective Mock-Up
+                    </h4>
+                </div>
+                <div class="col-md-6 mix apps web">
+                    <img src="img/pc1.png" alt="app ui" class="img-fluid" />
+                    <h4 class="font-size-18 text-uppercase mt-3">Time Zone App UI</h4>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-6 mix icons">
+                    <img src="img/pc3.png" alt="vivro" class="img-fluid" />
+                    <h4 class="font-size-18 text-uppercase mt-3">
+                        Viro Media Players UI
+                    </h4>
+                </div>
+
+                <div class="col-md-6 mix apps web icons">
+                    <img src="img/pc1.png" alt="blog" class="img-fluid" />
+                    <h4 class="font-size-18 text-uppercase mt-3">
+                        Blog / Magazine Flat UI Kit
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <button class="py-3 px-5 load-btn">Load More Projects</button>
+        </div>
+    </section>
+    <!-- portfolio section -->
+
+    <!-- testimonial section -->
+    <section class="testimonial py-5" id="testimonial">
+        <div class="about-title">
+            <h2>WHAT POEPLE SAY ABOUT US</h2>
+            <p class="font-size-18">Our clients love us!</p>
+        </div>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="client-photo">
+                        <img src="img/testimonials/img1.jpg" alt="iman" />
+                    </div>
+                    <div class="client-review ml-4">
+                        <p class="font-size-21 text-italic">
+                            “Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+                            Maecenas fringilla urna eu nisl scelerisque.”
+                        </p>
+                        <div class="name mt-4">
+                            <h3>Chanel Iman</h3>
+                            <p class="font-size-18 role">CEO of Pinterest</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="client-photo">
+                        <img src="img/testimonials/img2.jpg" alt="lima" />
+                    </div>
+                    <div class="client-review ml-4">
+                        <p class="font-size-21 text-italic">
+                            “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                            In condimentum facilisis porta.”
+                        </p>
+                        <div class="name mt-4">
+                            <h3>ADRIANA LIMA</h3>
+                            <p class="font-size-18 role">Founder of Instagram</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="client-photo">
+                        <img src="img/testimonials/img3.jpg" alt="HATHAWAY" />
+                    </div>
+                    <div class="client-review ml-4">
+                        <p class="font-size-21 text-italic">
+                            “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                            In condimentum facilisis porta.”
+                        </p>
+                        <div class="name mt-4">
+                            <h3>ANNE HATHAWAY</h3>
+                            <p class="font-size-18 role">Leaad Designer at Behance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="client-photo">
+                        <img src="img/testimonials/img4.jpg" alt="emma" />
+                    </div>
+                    <div class="client-review ml-4">
+                        <p class="font-size-21 text-italic">
+                            “Phasellus non purus vel arcu tempor commodo. Fusce semper,
+                            purus vel luctus molestie, risus sem cursus neque.”
+                        </p>
+                        <div class="name mt-4">
+                            <h3>Emma Stone</h3>
+                            <p class="font-size-18 role">Co-Founder of Shazam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial section -->
+
+    <!-- about section -->
+    <section class="about-section py-5" id="about">
+        <div class="about-section-title">
+            <h2>Get In Touch</h2>
+            <p class="font-size-18 text-semi-bold">
+                1600 Pennsylvania Ave NW, Washington, DC 20500, United States of
+                America. Tel: (202) 456-1111
+            </p>
+        </div>
+
+        <form action="#" method="POST">
+            <div class="row mt-5 mb-4 oneline">
+                <div class="col-md-6">
+                    <input type="text" placeholder="Your Name" required />
+                </div>
+                <div class="col-md-6">
+                    <input type="email" placeholder="Your Email" required />
+                </div>
+            </div>
+
+            <div class="row">
+                <textarea name="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            </div>
+            <button class="mt-5 send-btn">Send Message</button>
+        </form>
+    </section>
+    <!-- about section -->
+
+    <!-- footer section -->
+    <footer class="footer-section py-3">
+        <div class="row">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Google+</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribble</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="copyright text-center mt-3">
+            <p>
+                Copyright &copy; 2020. All Rights Reserved
+                <a href="http://mithu.epizy.com/" class="text-warning text-italic">Mithu</a>
+            </p>
+        </div>
+    </footer>
+    <!-- footer section -->
+
+    <!--------------------- JAVASCRIPT FILE -------------------->
+
+    <!-- jquery js, then popper js -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- browser support -->
+    <script src="assets/js/respond.min.js"></script>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/selectivizr.js"></script>
+
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!-- custom js -->
+    <script src="./progresscircle/progresscircle.js"></script>
+    <script src="custom.js"></script>
+
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("fa-thumbs-down");
+        }
+    </script>
+
+</body>
+</html>
